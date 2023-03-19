@@ -17,6 +17,7 @@ const Contact = () => (
           that don&apos;t fit that description. I&apos;m a hard-working and
           positive person who will always approach each task with a sense of
           purpose and attention to detail. Please do feel free to check out my 
+          {' '}
           <a
             href="#socials"
             className="underline decoration-purple-500 decoration-4"
