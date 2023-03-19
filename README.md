@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="https://res.cloudinary.com/db3ckadxp/image/upload/v1678824065/Nahnah_fco5oc.png" alt="logo" width="250"  height="auto" />
+  <img src="https://res.cloudinary.com/db3ckadxp/image/upload/v1679061680/nahnah_logo_bkmhbl.png" alt="logo" width="250"  height="auto" />
 </div>
 
 <!-- TABLE OF CONTENTS -->
