@@ -1,17 +1,22 @@
 import React from 'react';
 import Navbar from './Navbar';
+import Homepage from './Homepage';
+import Projects from './Projects';
+import About from './About';
+import Contact from './Contact';
+import Footer from './Footer';
 import './input.css';
 
 function App() {
   return (
-    <div className="bg-gray-100 h-screen">
+    <>
       <Navbar />
-      <div className="container mx-auto px-4 mt-8">
-        <h1 className="text-3xl font-bold mb-4">Welcome to my portfolio website</h1>
-        <p className="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet magna felis, at iaculis sapien ultricies eu.</p>
-        <a href="#" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Learn more</a>
-      </div>
-    </div>
+      <Homepage />
+      <Projects />
+      <About />
+      <Contact />
+      <Footer />
+    </>
   );
 }
 
