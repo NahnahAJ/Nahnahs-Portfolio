@@ -9,13 +9,13 @@ const Homepage = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setPosition((position + 1) % positions.length);
-    }, 4000);
+    }, 3000);
     return () => clearInterval(interval);
   }, [position]);
 
   return (
-    <main id="home" className="md:pl-10 mx-auto pt-10 grid md:grid-cols-2 justify-center text-center items-center bg-gray-100 h-screen sm:p-6">
-      <div className="">
+    <main id="home" className="md:pl-10 mx-auto pt-12 grid md:grid-cols-2 justify-center text-center items-center bg-gray-100 p-6">
+      <div className="pt-12">
         <span className="text-indigo-500">
           <h1 className="font-mono italic text-5xl">{positions[position]}</h1>
         </span>
