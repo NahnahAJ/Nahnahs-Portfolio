@@ -165,7 +165,7 @@ const Socials = () => (
       </svg>
     </a>
 
-    {/* Email */}
+    {/* Emailhttps://dev.to/timnans/deploy-rails-application-to-railwayapp-12gl */}
     <a
       href="mailto:nahnahahjuwah@gmail.com"
       target="_blank"
