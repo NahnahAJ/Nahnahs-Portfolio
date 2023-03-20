@@ -164,6 +164,27 @@ const Socials = () => (
         />
       </svg>
     </a>
+
+    {/* Email */}
+    <a
+      href="mailto:nahnahahjuwah@gmail.com"
+      target="_blank"
+      rel="noreferrer"
+      type="button"
+      data-te-ripple-init
+      data-te-ripple-color="light"
+      className="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
+      style={{ backgroundColor: '#333' }}
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="h-4 w-4"
+        fill="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path d="M20.5,3.5H3.5c-1.4,0-2.5,1.1-2.5,2.5v13c0,1.4,1.1,2.5,2.5,2.5h17c1.4,0,2.5-1.1,2.5-2.5v-13C23,4.6,21.9,3.5,20.5,3.5z M21,8l-9,6L3,8v2.7l9,5.7l9-5.7V8z" />
+      </svg>
+    </a>
   </div>
 );
 

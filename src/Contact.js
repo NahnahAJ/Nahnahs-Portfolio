@@ -19,7 +19,7 @@ const Contact = () => (
           purpose and attention to detail. Please do feel free to check out my
           {' '}
           <a
-            href="#socials"
+            href="#home"
             className="underline decoration-purple-500 decoration-4"
           >
             online profiles
