@@ -104,7 +104,7 @@ const Projects = () => {
         {projects.map((project) => (
           <div
             href="#"
-            className="flex flex-col justify-center w-full bg-white border border-gray-200 pb-4 md:mb-12 rounded-lg shadow-md md:flex-row justify-around hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+            className="flex flex-col justify-center w-full bg-white border border-gray-200 pb-4 md:mb-12 rounded-lg shadow-md md:flex-row justify-around hover:bg-gray-100"
             key={project.id}
           >
             <img
