@@ -9,7 +9,7 @@ const About = () => (
         </span>
       </h2>
       <div className="grid gap-8 grid-cols-1 md:grid-cols-3">
-        <div className="bg-white rounded-lg shadow-lg p-8">
+        <div className="bg-white rounded-lg shadow-lg p-8  flex flex-col justify-between">
           <img
             src="https://res.cloudinary.com/db3ckadxp/image/upload/v1679225460/photoAJ_akdjuo.jpg"
             alt="programmer"
@@ -56,10 +56,19 @@ const About = () => (
               React
             </li>
             <li className="px-2 py-1 bg-gray-200 text-gray-800 rounded-md m-1">
-              Node.js
+              Ruby
             </li>
             <li className="px-2 py-1 bg-gray-200 text-gray-800 rounded-md m-1">
-              Express
+              Ruby On Rails
+            </li>
+            <li className="px-2 py-1 bg-gray-200 text-gray-800 rounded-md m-1">
+              Tailwind CSS
+            </li>
+            <li className="px-2 py-1 bg-gray-200 text-gray-800 rounded-md m-1">
+              Replit
+            </li>
+            <li className="px-2 py-1 bg-gray-200 text-gray-800 rounded-md m-1">
+              Webpack
             </li>
             <li className="px-2 py-1 bg-gray-200 text-gray-800 rounded-md m-1">
               PostgreSQL
@@ -69,9 +78,6 @@ const About = () => (
             </li>
             <li className="px-2 py-1 bg-gray-200 text-gray-800 rounded-md m-1">
               GitHub
-            </li>
-            <li className="px-2 py-1 bg-gray-200 text-gray-800 rounded-md m-1">
-              Heroku
             </li>
             <li className="px-2 py-1 bg-gray-200 text-gray-800 rounded-md m-1">
               Netlify
@@ -91,7 +97,7 @@ const About = () => (
             </a>
           </div>
         </div>
-        <div className="bg-white rounded-lg shadow-lg p-8 justify-center">
+        <div className="bg-white rounded-lg shadow-lg p-8 justify-between flex flex-col">
           <h3 className="text-lg font-bold mb-2">Education</h3>
           <img
             src="https://res.cloudinary.com/db3ckadxp/image/upload/v1679227745/Education-bro_iydhgg.svg"
@@ -110,7 +116,7 @@ const About = () => (
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://docs.google.com/document/d/165b7zpyoS5M6_0t22iQnLHREm9UzOBN897jSsThVoLI/edit?usp=sharing"
+              href="https://drive.google.com/file/d/1fJc94QcN0OcwXY5IUQEjMY6Gzjn6_3E9/view?usp=sharing"
               className="shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
             >
               Download CV
