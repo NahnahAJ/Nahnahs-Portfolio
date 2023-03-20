@@ -1,14 +1,19 @@
 import React from 'react';
 
 const Socials = () => (
-  <div id="socials" className="flex flex-wrap items-center justify-center space-x-2 pt-4">
+  <div
+    id="socials"
+    className="flex flex-wrap items-center justify-center space-x-2 pt-4 "
+  >
     {/* <!-- Github --> */}
     <a
       href="https://github.com/NahnahAJ"
+      target="_blank"
+      rel="noreferrer"
       type="button"
       data-te-ripple-init
       data-te-ripple-color="light"
-      className="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+      className="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
       style={{ backgroundColor: '#333' }}
     >
       <svg
@@ -24,10 +29,12 @@ const Socials = () => (
     {/* <!-- Linkedin --> */}
     <a
       href="https://www.linkedin.com/in/felicia-awuah-gyedua/"
+      target="_blank"
+      rel="noreferrer"
       type="button"
       data-te-ripple-init
       data-te-ripple-color="light"
-      className="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+      className="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
       style={{ backgroundColor: '#0077b5' }}
     >
       <svg
@@ -42,10 +49,12 @@ const Socials = () => (
     {/* Slack */}
     <a
       href="https://microverse-students.slack.com/team/U03RA1RV886"
+      target="_blank"
+      rel="noreferrer"
       type="button"
       data-te-ripple-init
       data-te-ripple-color="light"
-      className="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+      className="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
       style={{ backgroundColor: '#3eb991' }}
     >
       <svg
@@ -63,10 +72,12 @@ const Socials = () => (
     {/* Medium */}
     <a
       href="https://medium.com/@nahnahahjuwah"
+      target="_blank"
+      rel="noreferrer"
       type="button"
       data-te-ripple-init
       data-te-ripple-color="light"
-      className="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+      className="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
       style={{ backgroundColor: '#000000' }}
     >
       <svg
@@ -82,10 +93,12 @@ const Socials = () => (
     {/* Twitter */}
     <a
       href="https://twitter.com/NahnahAhjuwah"
+      target="_blank"
+      rel="noreferrer"
       type="button"
       data-te-ripple-init
       data-te-ripple-color="light"
-      className="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+      className="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
       style={{ backgroundColor: '#1da1f2' }}
     >
       <svg
@@ -101,10 +114,12 @@ const Socials = () => (
     {/* <!-- Instagram --> */}
     <a
       href="https://www.instagram.com/nahnah_ahjuwah/"
+      target="_blank"
+      rel="noreferrer"
       type="button"
       data-te-ripple-init
       data-te-ripple-color="light"
-      className="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+      className="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
       style={{ backgroundColor: '#c13584' }}
     >
       <svg
@@ -120,10 +135,12 @@ const Socials = () => (
     {/* <!-- Telegram --> */}
     <a
       href="https://t.me/nahnah_ahjuwah"
+      target="_blank"
+      rel="noreferrer"
       type="button"
       data-te-ripple-init
       data-te-ripple-color="light"
-      className="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+      className="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
       style={{ backgroundColor: '#0088cc' }}
     >
       <svg
@@ -135,7 +152,10 @@ const Socials = () => (
         xmlnsXlink="http://www.w3.org/1999/xlink"
         xmlSpace="preserve"
         style={{
-          fillRule: 'evenodd', clipRule: 'evenodd', strokeLinejoin: 'round', strokeMiterlimit: 1.41421,
+          fillRule: 'evenodd',
+          clipRule: 'evenodd',
+          strokeLinejoin: 'round',
+          strokeMiterlimit: 1.41421,
         }}
       >
         <path
@@ -148,10 +168,12 @@ const Socials = () => (
     {/* Snapchat */}
     <a
       href="https://www.snapchat.com/add/nahnah_ahjuwah"
+      target="_blank"
+      rel="noreferrer"
       type="button"
       data-te-ripple-init
       data-te-ripple-color="light"
-      className="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+      className="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
       style={{ backgroundColor: '#f8cc1b' }}
     >
       <svg
