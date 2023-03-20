@@ -94,47 +94,59 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="container mx-auto pt-12 text-center">
+    <section id="projects" className="container mx-auto pt-12 text-center md:p-12">
       <div className="text-5xl font-extrabold ... pb-12">
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
           Projects
         </span>
       </div>
-      <div>
+      <div className="p-6 flex flex-col gap-6">
         {projects.map((project) => (
           <div
             href="#"
-            className="flex flex-col items-center w-full bg-white border border-gray-200 pb-4 mb-6 rounded-lg shadow-md md:flex-row justify-around hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+            className="flex flex-col justify-center w-full bg-white border border-gray-200 pb-4 md:mb-12 rounded-lg shadow-md md:flex-row justify-around hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
             key={project.id}
           >
             <img
-              className="object-cover w-full rounded-t-lg h-64 md:h-auto md:w-64 md:rounded-none md:rounded-r-lg"
+              className="object-cover w-full rounded-t-lg h-64 md:h-auto md:w-1/2 md:rounded-none md:rounded-r-lg"
               src={project.image}
-              alt=""
+              alt="projectImage"
             />
             <div className="flex flex-col justify-between p-4 leading-normal md:text-left w-full md:w-auto">
               <h2 className="font-bold text-2xl text-gray-900">
                 {project.name}
               </h2>
-              <span className="text-indigo-500 flex flex-wrap mt-2">
+              <span className="text-indigo-500 flex flex-wrap mt-2 justify-center md:justify-start">
                 {/* Project languages */}
                 {project.technologies
-                  && project.technologies.split(',').map((language) => (
-                    <span
-                      className="inline-block bg-indigo-100 text-indigo-500 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2 justify-center"
-                      key={project.id}
-                    >
-                      {language}
-                    </span>
-                  ))}
+          && project.technologies.split(',').map((language) => (
+            <span
+              className="inline-block bg-indigo-100 text-indigo-500 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2 justify-center"
+              key={project.id}
+            >
+              {language}
+            </span>
+          ))}
               </span>
               <p className="mt-4 text-gray-700">{project.description}</p>
               <div className="flex justify-between items-center mt-6 gap-4">
                 <button className="shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
-                  <a href={project.liveVersion}>View Project</a>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href={project.liveVersion}
+                  >
+                    View Project
+                  </a>
                 </button>
                 <button className="shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
-                  <a href={project.source}>View Code</a>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href={project.source}
+                  >
+                    View Code
+                  </a>
                 </button>
               </div>
             </div>
